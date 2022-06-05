@@ -1,5 +1,0 @@
-html form attributes
-....................
-2. show address on click of coordinates
-3. stage project on pendrive
-4. delete
