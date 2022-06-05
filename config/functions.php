@@ -33,7 +33,7 @@
 		}
 
 		// GET COORDINATES
-		// $key = 'AIzaSyAI-BNSrawCnmQYL3w_2uheRoTdXqGJvnU';
+		// $key = 'API_Key_Here';
 		// $latitude = '51.6111921';
 		// $longitude = '-0.1634203';
 		// $address = getAddress($latitude,$longitude,$key);
@@ -41,7 +41,7 @@
 		// echo $address;
 
 		// GET ADDRESS
-		// $address = '2 Short Way, London N12 0RX';
+		// $address = '8 Short Way, London N12 0RX';
 		// $latLong = getCoordinates($address, $key);
 		// $latitude = $latLong['latitude']?$latLong['latitude']:'Not found';
 		// $longitude = $latLong['longitude']?$latLong['longitude']:'Not found';
