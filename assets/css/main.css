@@ -1,0 +1,141 @@
+:root {
+  --orange-color: #FA6400;
+  --light-orange-color: #FFA870;
+  --greyish-color: #D5D8DC;
+  --black-color: #000000;
+  --white-color: #FFFFFF;  
+}
+
+/*Basic*/
+*{ color: var(--black-color); }
+i{ color: var(--orange-color); }
+a{ color: var(--orange-color); }
+button,.btn{ 
+	background: var(--orange-color);
+	color: var(--white-color);
+	border: none; 
+	/*border-radius: unset;*/
+}
+button:hover,.btn:hover{
+	background: var(--orange-color);
+	color: var(--white-color);
+	opacity: 0.8;
+}
+h2{ color: var(--orange-color); }
+
+
+.container-fluid{
+	overflow: hidden;
+}
+.navigation{
+	overflow: hidden;
+
+}
+.navbar{
+	background: #D5D8DC;
+	color: #000000;
+	padding: 0 80px;
+}
+.navbar-brand{
+	font-weight: bold;
+}
+.fa-bars{
+	color: var(--orange-color);
+	border: none;
+	font-size: 1.8em;
+}
+
+
+/*collapse*/
+.collapse{
+	width: 400px;
+	padding: 20px 10px;
+}
+.navbar-nav{
+	width: 50%;
+}
+.nav-item{ 
+	color: var(--orange-color); 
+	margin: 10px 0;
+}
+.nav-item:first-child{width: 80px;}
+.nav-link:hover{ color: var(--light-orange-color); }
+
+/*INPUT*/
+.driver-number{
+	width: 100%;
+	border: 2px solid var(--light-orange-color);
+	border-radius: unset;
+}
+.driver-number:focus{
+	outline: 1px solid var(--light-orange-color);
+	box-shadow: 0px 0px 4px 1px var(--light-orange-color);
+	-webkit-box-shadow: 0px 0px 4px 1px var(--light-orange-color);
+	-moz-box-shadow: 0px 0px 4px 1px var(--light-orange-color);
+}
+
+.searchInput{
+	background-color: white;
+	background-image: url('../img/search.png');
+  background-position: 10px 10px;
+  background-size: 22px;
+  background-repeat: no-repeat;
+	width: 100%;
+ 	font-size: 1em;
+ 	padding: 8px 20px 8px 40px;
+ 	border: 1px solid var(--orange-color);
+ 	margin-bottom: 12px;
+}
+.searchInput:focus{
+	border: 1px solid var(--light-orange-color);
+	outline: 1px solid var(--light-orange-color);
+
+	outline: 1px solid var(--light-orange-color);
+	box-shadow: 0px 0px 4px 1px var(--light-orange-color);
+	-webkit-box-shadow: 0px 0px 4px 1px var(--light-orange-color);
+	-moz-box-shadow: 0px 0px 4px 1px var(--light-orange-color);
+
+	outline: unset;
+}
+
+.form-check-input{
+	border-color: var(--light-orange-color);
+}
+.form-check-input:focus{
+	border: unset;
+	outline: unset;
+	box-shadow: unset;
+}
+.form-check-input:checked{
+	background-color: var(--orange-color);
+	border-color: var(--orange-color);
+}
+
+.button-wrapper{
+	text-align: center;
+}
+.btn{
+	width: 100px;
+	margin: 0 20px;
+}
+
+/*CONTENT STYLE*/
+.container, .records{
+	display: grid;
+	align-content: center;
+	min-height: 90vh;
+	width: 100%;
+
+	margin: 0;
+	padding: 0 400px;
+}
+.records{
+	padding: 0;
+	width: 100%;
+}
+table{
+	border: 1px solid #cccccc;
+}
+table th{
+	/*color: var(--orange-color);*/
+}

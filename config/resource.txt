@@ -1,0 +1,6 @@
+https://paletton.com/#uid=3000u0kllllaFw0g0qFqFg0w0aF
+https://www.smashingmagazine.com/2020/08/application-color-schemes-css-custom-properties/
+
+Navbar: #D5D8DC
+Navbar text: #000000
+
